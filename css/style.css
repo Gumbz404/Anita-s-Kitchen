@@ -1,0 +1,173 @@
+
+body {
+
+  font-family: cursive;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.hamburger-menu{
+      width:30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height:5px;
+      background-color:#111;
+      border-radius:5px;
+      position:relative;
+
+}
+.hamburger-menu:before{
+  content: '';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    width: 100%;
+    height:5px;
+    background-color:#111;
+    position:absolute;
+    border-radius:5px;
+}
+.hamburger-menu:after{
+  content: '';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    width: 100%;
+    height:5px;
+    background-color:#111;
+    position:absolute;
+    border-radius:5px;
+}
+#show {
+  background-image:url("../mpft-ip/ip2/assets/backgrounds/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#menu {
+  display: flex;
+
+  height:100px;
+}
+#menu .breakfast{
+  background-image:url(../mpft-ip/ip2/assets/foodtop/breakfast.jpg);
+}
+#menu .lunch{
+  background-image:url(../mpft-ip/ip2/assets/foodtop/lunch.jpg);
+}
+#menu .dinner{
+  background-image:url(../mpft-ip/ip2/assets/foodtop/dinner.jpg);
+}
+#menu h3{
+  color:white;
+  text-align: center;
+  padding-top: 30px;
+}
+#menu .row {
+text-align: center;
+padding-top: 20px;
+  font-family: raleway;
+  font-style: oblique;
+  font-size: 17px;
+}
+#fastfood{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#drinks{
+  margin-top:150px;
+  margin-bottom: 150px;
+}
+#drinks .image{
+  display: inline;
+}
+#images{
+  padding-right:50px;
+  padding-left:50px;
+}
+#sliding-menu{
+  background-image:url(../mpft-ip/ip2/assets/backgrounds/foodsBg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+#feedback{
+  background-image: url(../mpft-ip/ip2/assets/backgrounds/subscribe.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#contact-us{
+  background-color: #f15a29;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact-us .logos{
+  display:inline;
+}
+#contact-us .footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#menu {
+  margin-right:0;
+  padding-right: 0;
+  width: 100%;
+  height: 210px;
+}
+ .row1{
+   padding-bottom: 0;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+  background-color: #ccc;
+  justify-content: center;
+  text-align: center;
+}
+.row2{
+  height: 100px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f15a29;
+  justify-content: center;
+  text-align: center;
+  pad
+}
+#menu p{
+  margin: 0;
+  padding: 0;
+}
+.about h3{
+  line-height: 1.5
+  font-style:normal;
+  color: #f15a29;
+}
+
+.btn{
+  border: 1px solid #f15a29;
+  color: #f15a29;
+}
+
+.fstfood{
+  margin-bottom: 10px;
+}
+.btn1{
+  text-decoration-color: #ccc
+}
