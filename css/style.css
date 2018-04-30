@@ -51,8 +51,6 @@ body {
 }
 #menu {
   display: flex;
-
-  height:100px;
 }
 #menu .breakfast{
   background-image:url(../mpft-ip/ip2/assets/foodtop/breakfast.jpg);
@@ -79,9 +77,15 @@ padding-top: 20px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.fstfood{
+  padding: 50px;
+}
 #drinks{
   margin-top:150px;
   margin-bottom: 150px;
+}
+.drnks{
+  padding:50px;
 }
 #drinks .image{
   display: inline;
@@ -98,6 +102,31 @@ padding-top: 20px;
   display: flex;
   flex-direction: column;
 }
+#sliding-menu .row{
+
+  padding-top: 25px;
+  padding-left: 50px;
+  color: white;
+}
+#customers{
+  height: 400px;
+}
+#customers p{
+  color: black;
+}
+#roww{
+  border: 1px gray solid;
+  margin:40px;
+  padding:20px;
+}
+.img{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f15a29;
+}
+
 #feedback{
   background-image: url(../mpft-ip/ip2/assets/backgrounds/subscribe.jpg);
   background-position: center;
@@ -110,6 +139,7 @@ padding-top: 20px;
   color: white;
 }
 #contact-us{
+  height: 100%;
   background-color: #f15a29;
   display: flex;
   flex-direction: column;
@@ -126,13 +156,14 @@ padding-top: 20px;
   align-items: center;
 }
 #menu {
-  margin-right:0;
-  padding-right: 0;
+  margin:0;
+  padding:0;
   width: 100%;
   height: 210px;
 }
- .row1{
-   padding-bottom: 0;
+ #menu .row1{
+   width: 100%;
+   padding:0;
    height: 100px;
    display: flex;
    flex-direction: column;
@@ -140,7 +171,8 @@ padding-top: 20px;
   justify-content: center;
   text-align: center;
 }
-.row2{
+#menu .row2{
+  width:100%;
   height: 100px;
   margin-top: 10px;
   display: flex;
@@ -148,26 +180,45 @@ padding-top: 20px;
   background-color: #f15a29;
   justify-content: center;
   text-align: center;
-  pad
+  padding:0;
 }
 #menu p{
   margin: 0;
   padding: 0;
 }
+.about{
+  padding-top:50px;
+}
 .about h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:
   line-height: 1.5
   font-style:normal;
   color: #f15a29;
 }
-
+.about p{
+  line-height: 1.1
+  font-style:normal;
+  font-family: cinzel;
+}
 .btn{
   border: 1px solid #f15a29;
   color: #f15a29;
 }
-
+.footer{
+  padding-top: 20px;
+}
 .fstfood{
   margin-bottom: 10px;
 }
 .btn1{
   text-decoration-color: #ccc
+}
+
+}
+.txt{
+  line-height: 1.1;
+  padding-top: 60px;
 }
