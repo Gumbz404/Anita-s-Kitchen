@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # {Anita's Kitchen}
 #### {Anita's Kitchen}, {30th April 2018}
 #### By **{Samuel Gumbo}**
@@ -15,3 +16,7 @@ To install or access my website, one needs to download or have a access to a web
 ### License
 *{MIT}*
 Copyright (c) {2018} **{Samuel Gumbo}**
+=======
+# Anita-s-Kitchen
+A project that involves making a website for Anita based on a certain design on how it should appear.
+>>>>>>> f4b864dc120008c5432c58b4460df14c03769899
